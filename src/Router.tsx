@@ -5,6 +5,7 @@ import { LoggedInRoute } from "./components/LoggedInRoute";
 import { NonLoggedInRoute } from "./components/NonLoggedInRoute";
 import { Register } from "./pages/Register";
 import { Layout } from "./Layout";
+import { Cards } from "./pages/Cards";
 
 const router = createBrowserRouter([
   {
@@ -12,6 +13,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Navigate to={"/home"} replace /> },
       { path: "/home", element: <LoggedInRoute component={<Home />} /> },
+      { path: "/cards", element: <LoggedInRoute component={<Cards />} /> },
       {
         path: "/register",
         element: <NonLoggedInRoute component={<Register />} />,

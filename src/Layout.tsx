@@ -30,7 +30,7 @@ export const Layout: React.FC = () => {
     <div className="w-full h-full">
       <div className="flex w-full justify-start items-center gap-4 flex-col overflow-y-auto">
         <Header />
-        <div className="px-8">
+        <div className="px-8 w-full h-full">
           <Outlet />
         </div>
       </div>
