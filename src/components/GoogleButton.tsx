@@ -4,6 +4,7 @@ import { useNavigate, useSearchParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useSWRConfig } from "swr";
 import { AxiosClient } from "../axios/Axios.client";
+import { Button } from "./Button";
 
 export const GoogleButton: React.FC = () => {
   const navigate = useNavigate();
@@ -61,13 +62,10 @@ export const GoogleButton: React.FC = () => {
   }, [searchParams, verifyAndLogUser, user]);
 
   return (
-    <div className="border-sub border-2  rounded-md hover:bg-black transition-all cursor-pointer">
-      <button
-        className={`flex p-4 justify-center items-center  ${isLoading ? "animate-pulse" : ""}  transition-all`}
-        onClick={googleAuth}
-      >
-        <p className="text-main">Continue with Google</p>
-      </button>
-    </div>
+    <Button
+      onClick={googleAuth}
+      loading={isLoading}
+      text="Continue with Google"
+    />
   );
 };
