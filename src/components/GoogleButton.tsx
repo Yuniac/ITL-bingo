@@ -3,6 +3,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useSWRConfig } from "swr";
+import { AxiosClient } from "../axios/Axios.client";
 
 export const GoogleButton: React.FC = () => {
   const navigate = useNavigate();
@@ -29,14 +30,15 @@ export const GoogleButton: React.FC = () => {
   const verifyAndLogUser = useCallback(
     async (code: string) => {
       try {
-        const { data } = await axios.post(
-          `${process.env.REACT_APP_API_URL}/api/auth/google`,
-          { code }
-        );
+        const { data } = await AxiosClient.post("/auth/google", { code });
 
         if (data.user) {
           mutate("user", data.user);
           mutate("token", data.token);
+          localStorage.setItem(
+            process.env.REACT_APP_LOCAL_STORAGE_TOKEN_KEY!,
+            data.token
+          );
           navigate("/home", { replace: true });
           toast.success("Logged in successfully");
         }
