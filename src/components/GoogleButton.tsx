@@ -7,7 +7,7 @@ export const GoogleButton: React.FC = () => {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const { cache, mutate } = useSWRConfig();
-  const user = cache.get("user");
+  const { data: user } = cache.get("user") || {};
 
   const [isLoading, setIsLoading] = useState(false);
 
@@ -17,7 +17,7 @@ export const GoogleButton: React.FC = () => {
       const { data: googleAuthUrl } = await axios.get(
         `${process.env.REACT_APP_API_URL}/api/auth/create-google-auth-link`
       );
-      console.log(googleAuthUrl);
+
       window.open(googleAuthUrl, "_self");
     } catch (error: any) {
       console.log(error);
@@ -36,12 +36,11 @@ export const GoogleButton: React.FC = () => {
         if (data.user) {
           mutate("user", data.user);
           mutate("token", data.token);
-          setIsLoading(false);
           navigate("/home", { replace: true });
         }
       } catch (error) {
         console.log(error);
-
+      } finally {
         setIsLoading(false);
       }
     },

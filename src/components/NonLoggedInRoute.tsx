@@ -12,7 +12,7 @@ export const NonLoggedInRoute: React.FC<AtiraRouteProps> = ({
   redirect,
 }) => {
   const { cache } = useSWRConfig();
-  const user = cache.get("user");
+  const { data: user } = cache.get("user");
 
   if (user) {
     return <Navigate to={"/home"} replace />;

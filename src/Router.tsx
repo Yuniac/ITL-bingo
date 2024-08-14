@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import { Home } from "./pages/Home";
 
 import { LoggedInRoute } from "./components/LoggedInRoute";
@@ -10,6 +10,7 @@ const router = createBrowserRouter([
   {
     element: <Layout />,
     children: [
+      { path: "/", element: <Navigate to={"/home"} replace /> },
       { path: "/home", element: <LoggedInRoute component={<Home />} /> },
       {
         path: "/register",
