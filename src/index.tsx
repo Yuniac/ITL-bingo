@@ -4,6 +4,8 @@ import { RouterProvider } from "react-router-dom";
 import { Cache, SWRConfig } from "swr";
 import router from "./Router";
 import "./index.css";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function localStorageProvider() {
   // When initializing, we restore the data from `localStorage` into a map.
@@ -16,7 +18,6 @@ function localStorageProvider() {
     const appCache = JSON.stringify(Array.from(map.entries()));
     localStorage.setItem("app-cache", appCache);
   });
-  console.log(map);
   // We still use the map for write & read for performance.
   return map as Cache;
 }
@@ -29,6 +30,7 @@ root.render(
   <React.StrictMode>
     <SWRConfig value={{ provider: localStorageProvider }}>
       <RouterProvider router={router} />
+      <ToastContainer />
     </SWRConfig>
   </React.StrictMode>
 );

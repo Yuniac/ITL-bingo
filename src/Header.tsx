@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 import useSWR, { useSWRConfig } from "swr";
 
 export const Header: React.FC = () => {
@@ -10,6 +11,7 @@ export const Header: React.FC = () => {
   const onLogout = () => {
     mutate(() => true, null, false);
     navigate("/register");
+    toast.info("Logged out successfully");
   };
 
   return (

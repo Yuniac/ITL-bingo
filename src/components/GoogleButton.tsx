@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useCallback, useEffect, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
+import { toast } from "react-toastify";
 import { useSWRConfig } from "swr";
 
 export const GoogleButton: React.FC = () => {
@@ -37,6 +38,7 @@ export const GoogleButton: React.FC = () => {
           mutate("user", data.user);
           mutate("token", data.token);
           navigate("/home", { replace: true });
+          toast.success("Logged in successfully");
         }
       } catch (error) {
         console.log(error);
