@@ -20,6 +20,7 @@ body {
   overflow-y: auto;
   font-family: "Roboto", sans-serif;
   color: #4be2ff;
+  background-color: black;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -28,5 +29,19 @@ body {
 html,
 body {
   font-family: "Roboto", sans-serif;
+  color: #4be2ff;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+p,
+h1 {
   color: #4be2ff;
 }
