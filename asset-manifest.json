@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ITL-bingo/static/css/main.f2c62748.css",
-    "main.js": "/ITL-bingo/static/js/main.f23db6f4.js",
+    "main.js": "/ITL-bingo/static/js/main.6a15ba04.js",
     "static/media/light_blue.jpg": "/ITL-bingo/static/media/light_blue.8cdadc65aa419938e8a6.jpg",
     "static/media/light_blue_2.png": "/ITL-bingo/static/media/light_blue_2.24d60d69cda98a085f04.png",
     "static/media/MW_2024.jpg": "/ITL-bingo/static/media/MW_2024.42f588bf7647c0bbca29.jpg",
@@ -9,10 +9,10 @@
     "static/media/TGA_ORANGE.jpg": "/ITL-bingo/static/media/TGA_ORANGE.8220ccca79b03be2917e.jpg",
     "index.html": "/ITL-bingo/index.html",
     "main.f2c62748.css.map": "/ITL-bingo/static/css/main.f2c62748.css.map",
-    "main.f23db6f4.js.map": "/ITL-bingo/static/js/main.f23db6f4.js.map"
+    "main.6a15ba04.js.map": "/ITL-bingo/static/js/main.6a15ba04.js.map"
   },
   "entrypoints": [
     "static/css/main.f2c62748.css",
-    "static/js/main.f23db6f4.js"
+    "static/js/main.6a15ba04.js"
   ]
 }
