@@ -1,6 +1,7 @@
 {
   "name": "itl-quiz-game",
   "version": "0.1.0",
+  "homepage": "https://yuniac.github.io/itl-bingo",
   "private": true,
   "dependencies": {
     "autoprefixer": "^10.4.20",
