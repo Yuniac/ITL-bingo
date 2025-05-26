@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
         <div>
           <div className="flex justify-center items-center gap-4 mt-2">
             <a
-              href="https://github.com/Yuniac"
+              href="https://github.com/Yuniac/ITL-bingo/"
               className="hover:opacity-80 hover:scale-110"
             >
               <svg
