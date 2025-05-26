@@ -1,50 +1,27 @@
-import { useCallback } from "react";
-import { useNavigate } from "react-router-dom";
-import { toast } from "react-toastify";
-import useSWR, { useSWRConfig } from "swr";
+import { LightBlue2 } from "./assets";
 
 export const Header: React.FC = () => {
-  const { data: user } = useSWR("user");
-  const { mutate } = useSWRConfig();
-
-  const navigate = useNavigate();
-
-  const createGame = () => {
-    navigate("/game/create");
-  };
-
-  const onLogout = useCallback(() => {
-    mutate(() => true, null, false);
-    navigate("/register");
-    toast.info("Logged out successfully");
-  }, [mutate, navigate]);
-
   return (
-    <header className="bg-sub w-full h-20 flex justify-between items-center px-8">
-      {user ? (
-        <div className="flex flex-1 justify-start items-center gap-4">
-          <h2 className="text-xl">Hello {user?.name}</h2>
-          <div>
-            {user.admin ? (
-              <button className="underline" onClick={createGame}>
-                Create Game
-              </button>
-            ) : null}
+    <header className="w-full flex justify-between items-center py-4 px-8">
+      <div className="flex-1" />
+      <div className="flex flex-col items-center justify-center gap-4">
+        <div>
+          <img
+            src={LightBlue2}
+            alt="site logo"
+            className="mx-auto mb-8 drop-shadow-[0_0_40px_rgba(75,226,255,0.5)]"
+          />
+        </div>
+        <div className="flex flex-col items-center justify-center mt-4 mb-12">
+          <h1 className="text-main text-4xl md:text-5xl font-extrabold tracking-wide text-center drop-shadow-lg underline underline-offset-8 decoration-main/30">
+            IN THE LIGHT
+          </h1>
+          <div className="text-sub text-xl md:text-2xl text-center mt-2 tracking-wider drop-shadow">
+            GAMES SHOWS BINGO
           </div>
         </div>
-      ) : (
-        <div className="flex-1" />
-      )}
-
-      <p className="text-main text-center text-5xl flex-1">ITL - Game Show</p>
-
-      {user ? (
-        <div className="flex-1 flex justify-end cursor-pointer underline">
-          <button onClick={onLogout}>Log-out</button>
-        </div>
-      ) : (
-        <div className="flex-1" />
-      )}
+      </div>
+      <div className="flex-1" />
     </header>
   );
 };

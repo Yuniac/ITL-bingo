@@ -1,30 +1,10 @@
-import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
 
 import { Header } from "./Header";
-import useSWR from "swr";
-import { AxiosClient } from "./axios/Axios.client";
+import { Footer } from "./Footer";
 
 export const Layout: React.FC = () => {
-  const [mounted, setMounted] = useState(false);
 
-  const { data } = useSWR(
-    mounted ? `${process.env.REACT_APP_API_URL}/api/auth/refresh-token` : null,
-    () => AxiosClient.post("/auth/refresh-token").then(({ data }) => data)
-  );
-
-  useEffect(() => {
-    if (data?.token) {
-      localStorage.setItem(
-        process.env.REACT_APP_LOCAL_STORAGE_TOKEN_KEY!,
-        data.token
-      );
-    }
-  }, [data]);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
 
   return (
     <div className="w-full h-full">
@@ -33,6 +13,7 @@ export const Layout: React.FC = () => {
         <div className="px-8 w-full h-full">
           <Outlet />
         </div>
+        <Footer />
       </div>
     </div>
   );

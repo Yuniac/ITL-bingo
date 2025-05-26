@@ -1,0 +1,109 @@
+{
+  "events": [
+    {
+      "id": 0,
+      "name": "Future Games Show",
+      "description": "The Future Games Show is a showcase of upcoming games, featuring trailers and gameplay footage.",
+      "host": "https://www.futuregamesshow.com/",
+      "date": "21.08.2024",
+      "participants": [
+        {
+          "id": 0,
+          "name": "Yuniac",
+          "standing": 3,
+          "prize": null
+        },
+        {
+          "id": 1,
+          "name": "SpartaMania302",
+          "standing": 2,
+          "prize": {
+            "name": "Buckshot Roulette",
+            "steam": "https://store.steampowered.com/app/2835570/Buckshot_Roulette/"
+          }
+        },
+        {
+          "id": 2,
+          "name": "Kevlar_IRA",
+          "standing": 1,
+          "prize": {
+            "name": "Far Cry 3",
+            "steam": "https://store.steampowered.com/app/220240/Far_Cry_3/"
+          }
+        }
+      ],
+      "logo": "FGS.png",
+      "vod": "https://youtu.be/ODFLcn-Oaqk"
+    },
+    {
+      "id": 1,
+      "name": "PC GAMING SHOW: MOST WANTED 2024",
+      "description": "PC Gaming Show: Most Wanted is our annual celebration of the most exciting projects in development for the world's greatest gaming platform. Our rundown of 25 titles is voted for by The Council—a panel of 70+ industry luminaries, including celebrated developers, content creators, and our own editors.",
+      "host": "https://www.pcgamingshow.com/",
+      "date": "05.12.2024",
+      "participants": [
+        {
+          "id": 0,
+          "name": "Yuniac",
+          "standing": 3,
+          "prize": null
+        },
+        {
+          "id": 1,
+          "name": "SpartaMania302",
+          "standing": 2,
+          "prize": {
+            "name": "Call of Cthulhu: Dark Corners of the Earth",
+            "steam": "https://store.steampowered.com/app/22340/Call_of_Cthulhu_Dark_Corners_of_the_Earth/"
+          }
+        },
+        {
+          "id": 2,
+          "name": "Kevlar_IRA",
+          "standing": 1,
+          "prize": {
+            "name": "Sifu",
+            "steam": "https://store.steampowered.com/app/2138710/Sifu/"
+          }
+        }
+      ],
+      "logo": "PC_MW_2024.png",
+      "vod": "https://www.youtube.com/live/c4Y3GMbaV3s"
+    },
+    {
+      "id": 2,
+      "name": "The Game Awards 2024",
+      "description": "Live from Peacock Theater in Los Angeles, join Geoff Keighley and the video game industry for a celebration of the year's best -- and a look at what's next. Featuring live performances by Snoop Dogg, Twenty One Pilots, D4vd, Royal & The Serpent, and The Game Awards Orchestra. Announcements include The Witcher 4, Intergalactic: The Heretic Prophet, Okami Sequel, Elden Ring Nightreign, Project Robot and dozens more.",
+      "host": "https://thegameawards.com/",
+      "date": "13.12.2024",
+      "participants": [
+        {
+          "id": 0,
+          "name": "Yuniac",
+          "standing": 2,
+          "prize": {
+            "name": "Nobody wants to die",
+            "steam": "https://store.steampowered.com/app/1939970/Nobody_Wants_to_Die/"
+          }
+        },
+        {
+          "id": 1,
+          "name": "SpartaMania302",
+          "standing": 1,
+          "prize": {
+            "name": "Resident Evil 4",
+            "steam": "https://store.steampowered.com/app/2050650/Resident_Evil_4/"
+          }
+        },
+        {
+          "id": 2,
+          "name": "Kevlar_IRA",
+          "standing": 3,
+          "prize": null
+        }
+      ],
+      "logo": "TGA_ORANGE.jpg",
+      "vod": "https://youtu.be/LfnUQ-qKsdQ"
+    }
+  ]
+}

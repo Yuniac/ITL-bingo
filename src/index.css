@@ -45,3 +45,27 @@ p,
 h1 {
   color: #4be2ff;
 }
+
+hr {
+  border-color: #4be2ff;
+}
+
+/*  */
+
+@keyframes gradient-rotate {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-gradient-border {
+  background: linear-gradient(120deg, #4be2ff, #9b59b6, #4be2ff);
+  background-size: 200% 200%;
+  animation: gradient-rotate 1s linear infinite;
+}
