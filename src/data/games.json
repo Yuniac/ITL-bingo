@@ -5,7 +5,7 @@
       "name": "Future Games Show",
       "description": "The Future Games Show is a showcase of upcoming games, featuring trailers and gameplay footage.",
       "host": "https://www.futuregamesshow.com/",
-      "date": "21.08.2024",
+      "date": "2024-08-21",
       "participants": [
         {
           "id": 0,
@@ -40,7 +40,7 @@
       "name": "PC GAMING SHOW: MOST WANTED 2024",
       "description": "PC Gaming Show: Most Wanted is our annual celebration of the most exciting projects in development for the world's greatest gaming platform. Our rundown of 25 titles is voted for by The Council—a panel of 70+ industry luminaries, including celebrated developers, content creators, and our own editors.",
       "host": "https://www.pcgamingshow.com/",
-      "date": "05.12.2024",
+      "date": "2024-12-05",
       "participants": [
         {
           "id": 0,
@@ -75,7 +75,7 @@
       "name": "The Game Awards 2024",
       "description": "Live from Peacock Theater in Los Angeles, join Geoff Keighley and the video game industry for a celebration of the year's best -- and a look at what's next. Featuring live performances by Snoop Dogg, Twenty One Pilots, D4vd, Royal & The Serpent, and The Game Awards Orchestra. Announcements include The Witcher 4, Intergalactic: The Heretic Prophet, Okami Sequel, Elden Ring Nightreign, Project Robot and dozens more.",
       "host": "https://thegameawards.com/",
-      "date": "13.12.2024",
+      "date": "2024-12-13",
       "participants": [
         {
           "id": 0,

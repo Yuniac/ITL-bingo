@@ -5,7 +5,7 @@ import { Event } from "../model/Event";
 
 export const Home: React.FC = () => {
   const events = games.events.sort(
-    (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   ) as Array<Event>;
 
   return (
