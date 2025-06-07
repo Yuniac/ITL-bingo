@@ -104,6 +104,41 @@
       ],
       "logo": "TGA_ORANGE.jpg",
       "vod": "https://youtu.be/LfnUQ-qKsdQ"
+    },
+    {
+      "id": 3,
+      "name": "Summer Games Fest 2025",
+      "description": "Join Geoff Keighley live from YouTube Theater in Los Angeles for news updates and announcements about what's next for video games across all platforms.",
+      "host": "https://www.summergamefest.com/",
+      "date": "2025-06-06",
+      "participants": [
+        {
+          "id": 0,
+          "name": "Yuniac",
+          "standing": 1,
+          "prize": {
+            "name": "Abathor",
+            "steam": "https://store.steampowered.com/app/2295610/Abathor/"
+          }
+        },
+        {
+          "id": 1,
+          "name": "SpartaMania302",
+          "standing": 2,
+          "prize": {
+            "name": "Resident Evil 4: Separate Ways",
+            "steam": "https://store.steampowered.com/app/2109300/Resident_Evil_4__Separate_Ways/"
+          }
+        },
+        {
+          "id": 2,
+          "name": "Kevlar_IRA",
+          "standing": 3,
+          "prize": null
+        }
+      ],
+      "logo": "SGF.jpg",
+      "vod": "https://www.youtube.com/watch?v=-Hr6Q2hln_M"
     }
   ]
 }
