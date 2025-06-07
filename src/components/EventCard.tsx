@@ -19,7 +19,7 @@ export const EventCard: React.FC<{ event: Event }> = ({ event }) => {
   const logoSrc =
     Assets[event.logo.replace(/\.[a-z]+$/i, "") as keyof typeof Assets] ||
     event.logo;
-console.log("Logo source:", logoSrc);
+
   return (
     <div className="flex items-center justify-center min-h-screen bg-black p-4">
       <div className="bg-gradient-to-br from-main to-sub rounded-2xl animated-gradient-border shadow-2xl w-full max-w-xl mx-auto p-1">
