@@ -5,3 +5,5 @@ export { default as FGS } from "./events/FGS/FGS.png";
 export { default as PC_MW_2024 } from "./events/PC_GAMING_SHOW/MW_2024.jpg";
 export { default as TGA_ORANGE } from "./events/TGA/TGA_ORANGE.jpg";
 export { default as SGF } from "./events/SGF/SGF.jpg";
+export { default as XBOX } from "./events/XBOX/XBOX.webp";
+export { default as PC_MW_2025 } from "./events/PC_GAMING_SHOW/MW_2025.jpg";

@@ -1,7 +1,6 @@
 {
   "events": [
     {
-      "id": 0,
       "name": "Future Games Show",
       "description": "The Future Games Show is a showcase of upcoming games, featuring trailers and gameplay footage.",
       "host": "https://www.futuregamesshow.com/",
@@ -36,7 +35,6 @@
       "vod": "https://youtu.be/ODFLcn-Oaqk"
     },
     {
-      "id": 1,
       "name": "PC GAMING SHOW: MOST WANTED 2024",
       "description": "PC Gaming Show: Most Wanted is our annual celebration of the most exciting projects in development for the world's greatest gaming platform. Our rundown of 25 titles is voted for by The Council—a panel of 70+ industry luminaries, including celebrated developers, content creators, and our own editors.",
       "host": "https://www.pcgamingshow.com/",
@@ -71,7 +69,6 @@
       "vod": "https://www.youtube.com/live/c4Y3GMbaV3s"
     },
     {
-      "id": 2,
       "name": "The Game Awards 2024",
       "description": "Live from Peacock Theater in Los Angeles, join Geoff Keighley and the video game industry for a celebration of the year's best -- and a look at what's next. Featuring live performances by Snoop Dogg, Twenty One Pilots, D4vd, Royal & The Serpent, and The Game Awards Orchestra. Announcements include The Witcher 4, Intergalactic: The Heretic Prophet, Okami Sequel, Elden Ring Nightreign, Project Robot and dozens more.",
       "host": "https://thegameawards.com/",
@@ -106,7 +103,6 @@
       "vod": "https://youtu.be/LfnUQ-qKsdQ"
     },
     {
-      "id": 3,
       "name": "Summer Games Fest 2025",
       "description": "Join Geoff Keighley live from YouTube Theater in Los Angeles for news updates and announcements about what's next for video games across all platforms.",
       "host": "https://www.summergamefest.com/",
@@ -117,9 +113,10 @@
           "name": "Yuniac",
           "standing": 1,
           "prize": {
-            "name": "Abathor (PLACEHOLDER)",
+            "name": "Abathor",
             "steam": "https://store.steampowered.com/app/2295610/Abathor/"
-          }
+          },
+          "points": 57
         },
         {
           "id": 1,
@@ -128,17 +125,74 @@
           "prize": {
             "name": "Resident Evil 4: Separate Ways",
             "steam": "https://store.steampowered.com/app/2109300/Resident_Evil_4__Separate_Ways/"
-          }
+          },
+          "points": 50
         },
         {
           "id": 2,
           "name": "Kevlar_IRA",
           "standing": 3,
-          "prize": null
+          "prize": null,
+          "points": 40
         }
       ],
       "logo": "SGF.jpg",
       "vod": "https://www.youtube.com/watch?v=-Hr6Q2hln_M"
+    },
+     {
+      "name": "Future Games Show",
+      "description": "Hosted by Laura Bailey (Abby Anderson, The Last of Us Part II) and Matthew Mercer (Vincent Valentine, Final Fantasy VII Rebirth), the Future Games Show is a showcase of upcoming games, featuring trailers and gameplay footage.",
+      "host": "https://www.futuregamesshow.com/",
+      "date": "2025-06-07",
+      "participants": [
+        {
+          "id": 0,
+          "name": "Yuniac",
+          "standing": 3,
+          "prize": null,
+          "points": 61
+        },
+        {
+          "id": 1,
+          "name": "SpartaMania302",
+          "standing": 2,
+          "prize": {
+            "name": "Heavy Rain & Beyond: Two Souls",
+            "steam": "https://store.steampowered.com/app/960990/Beyond_Two_Souls/"
+          },
+          "points": 87
+        },
+        {
+          "id": 2,
+          "name": "Kevlar_IRA",
+          "standing": 1,
+          "prize": {
+            "name": "Quantum Break & RE7",
+            "steam": "https://store.steampowered.com/app/418370/Resident_Evil_7_Biohazard/"
+          },
+          "points": 90
+        }
+      ],
+      "logo": "FGS.png",
+      "vod": "https://youtu.be/LUibhTDJEa0"
+    },
+     {
+      "name": "XBOX Games Showcase",
+      "description": "Join us for a double feature on 8 June at 6 pm BST – Xbox Games Showcase immediately followed by The Outer Worlds 2 Direct. ",
+      "host": "https://www.xbox.com/en-GB/events/xbox-games-showcase",
+      "date": "2025-06-08",
+      "participants": [],
+      "logo": "XBOX.webp",
+      "vod": "https://www.youtube.com/watch?v=oPa7KaQXp8g"
+    },
+      {
+      "name": "PC Gaming Show",
+      "description": "Tune in on June 8th for this summer's PC Gaming Show, featuring exclusive trailers, new game announcements, and developer interviews from around the world. Hosted by Sean \"Day[9]\" Plott, Mica Burton, and Frankie Ward, the showcase will include 70+ of the most exciting games in development, all of which can be found on our Steam Wishlist.",
+      "host": "https://www.pcgamingshow.com/",
+      "date": "2025-06-08",
+      "participants": [],
+      "logo": "PC_MW_2025.png",
+      "vod": "https://www.youtube.com/watch?v=oPa7KaQXp8g"
     }
   ]
 }

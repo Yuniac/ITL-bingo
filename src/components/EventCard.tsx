@@ -21,9 +21,9 @@ export const EventCard: React.FC<{ event: Event }> = ({ event }) => {
     event.logo;
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-black p-4">
+    <div className="flex items-center justify-center min-h-screen bg-black p-4">  
       <div className="bg-gradient-to-br from-main to-sub rounded-2xl animated-gradient-border shadow-2xl w-full max-w-xl mx-auto p-1">
-        <div className="bg-black rounded-2xl p-8 flex flex-col items-center">
+        <div className="bg-black rounded-2xl p-8 flex flex-col items-center min-h-[600px]">
           <img
             src={logoSrc}
             alt={event.name + " logo"}
@@ -54,7 +54,7 @@ export const EventCard: React.FC<{ event: Event }> = ({ event }) => {
             <span className="font-semibold text-sub block mb-1">
               Participants:
             </span>
-            <ul className="space-y-2">
+            {event.participants?.length ? (<ul className="space-y-2">
               {event.participants
                 .sort((a, b) => a.standing - b.standing)
                 .map((p) => (
@@ -94,7 +94,9 @@ export const EventCard: React.FC<{ event: Event }> = ({ event }) => {
                     )}
                   </li>
                 ))}
-            </ul>
+            </ul>) :   <div className="text-center text-gray-400 italic py-4">
+              No bingo game was run for this event.
+            </div>}
           </div>
           <a
             href={event.vod}
