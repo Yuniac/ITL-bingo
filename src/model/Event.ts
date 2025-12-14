@@ -12,6 +12,7 @@ export interface Event {
       name: string;
       steam: string;
     } | null;
+    points?: number
   }>;
   logo: string;
   vod: string;

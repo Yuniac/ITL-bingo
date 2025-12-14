@@ -193,6 +193,43 @@
       "participants": [],
       "logo": "PC_MW_2025.png",
       "vod": "https://www.youtube.com/watch?v=oPa7KaQXp8g"
+    },
+        {
+      "name": "The Game Awards 2025",
+      "description": "The Game Awards recognizes and upholds creative and technical excellence in the global video game industry.",
+      "host": "https://thegameawards.com/",
+      "date": "2025-12-12",
+      "participants": [
+        {
+          "id": 0,
+          "name": "Yuniac",
+          "standing": 2,
+          "prize": {
+            "name": "",
+            "steam": ""
+          },
+          "points": 34
+        },
+        {
+          "id": 1,
+          "name": "SpartaMania302",
+          "standing": 3,
+          "prize":null,
+          "points": 27
+        },
+        {
+          "id": 2,
+          "name": "Kevlar_IRA",
+          "standing": 1,
+          "prize":  {
+            "name": "Nioh 1: The Complete Edition",
+            "steam": "https://store.steampowered.com/app/485510/Nioh_Complete_Edition/"
+          },
+          "points": 56
+        }
+      ],
+     "logo": "TGA_ORANGE.jpg",
+      "vod": "https://youtu.be/d-BDeU3R5ic"
     }
   ]
 }

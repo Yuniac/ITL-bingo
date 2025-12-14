@@ -60,7 +60,7 @@ export const EventCard: React.FC<{ event: Event }> = ({ event }) => {
                 .map((p) => (
                   <li
                     key={p.id}
-                    className="grid grid-cols-3 items-center bg-white/5 rounded px-3 py-2 hover:filter hover:bg-white/10 transition"
+                    className="grid grid-cols-4 items-center bg-white/5 rounded px-3 py-2 hover:filter hover:bg-white/10 transition"
                   >
                     <span className="font-medium text-main col-span-1">
                       {p.name}
@@ -77,6 +77,11 @@ export const EventCard: React.FC<{ event: Event }> = ({ event }) => {
                       }`}
                     >
                       {standingToText(p.standing)}
+                    </span>
+                    <span
+                      className={`text-xs col-span-1 text-center`}
+                    >
+                      {p.points || "N/A"}
                     </span>
                     {p.prize ? (
                       <a
