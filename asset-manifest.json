@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ITL-bingo/static/css/main.47da2c57.css",
-    "main.js": "/ITL-bingo/static/js/main.5d9d3e5d.js",
+    "main.css": "/ITL-bingo/static/css/main.8b2c47e9.css",
+    "main.js": "/ITL-bingo/static/js/main.b30773b1.js",
     "static/media/XBOX.webp": "/ITL-bingo/static/media/XBOX.8e7e6326169db2151228.webp",
     "static/media/SGF.jpg": "/ITL-bingo/static/media/SGF.3fc2977f2e911cd39733.jpg",
     "static/media/light_blue.jpg": "/ITL-bingo/static/media/light_blue.8cdadc65aa419938e8a6.jpg",
@@ -11,11 +11,11 @@
     "static/media/FGS.png": "/ITL-bingo/static/media/FGS.03b0a4b8167166478150.png",
     "static/media/TGA_ORANGE.jpg": "/ITL-bingo/static/media/TGA_ORANGE.8220ccca79b03be2917e.jpg",
     "index.html": "/ITL-bingo/index.html",
-    "main.47da2c57.css.map": "/ITL-bingo/static/css/main.47da2c57.css.map",
-    "main.5d9d3e5d.js.map": "/ITL-bingo/static/js/main.5d9d3e5d.js.map"
+    "main.8b2c47e9.css.map": "/ITL-bingo/static/css/main.8b2c47e9.css.map",
+    "main.b30773b1.js.map": "/ITL-bingo/static/js/main.b30773b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.47da2c57.css",
-    "static/js/main.5d9d3e5d.js"
+    "static/css/main.8b2c47e9.css",
+    "static/js/main.b30773b1.js"
   ]
 }
