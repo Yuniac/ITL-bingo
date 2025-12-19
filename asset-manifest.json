@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ITL-bingo/static/css/main.8b2c47e9.css",
-    "main.js": "/ITL-bingo/static/js/main.b30773b1.js",
+    "main.js": "/ITL-bingo/static/js/main.799b6338.js",
     "static/media/XBOX.webp": "/ITL-bingo/static/media/XBOX.8e7e6326169db2151228.webp",
     "static/media/SGF.jpg": "/ITL-bingo/static/media/SGF.3fc2977f2e911cd39733.jpg",
     "static/media/light_blue.jpg": "/ITL-bingo/static/media/light_blue.8cdadc65aa419938e8a6.jpg",
@@ -12,10 +12,10 @@
     "static/media/TGA_ORANGE.jpg": "/ITL-bingo/static/media/TGA_ORANGE.8220ccca79b03be2917e.jpg",
     "index.html": "/ITL-bingo/index.html",
     "main.8b2c47e9.css.map": "/ITL-bingo/static/css/main.8b2c47e9.css.map",
-    "main.b30773b1.js.map": "/ITL-bingo/static/js/main.b30773b1.js.map"
+    "main.799b6338.js.map": "/ITL-bingo/static/js/main.799b6338.js.map"
   },
   "entrypoints": [
     "static/css/main.8b2c47e9.css",
-    "static/js/main.b30773b1.js"
+    "static/js/main.799b6338.js"
   ]
 }
